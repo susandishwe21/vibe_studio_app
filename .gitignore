@@ -44,3 +44,4 @@
 **/ios/app.tar.gz
 **/android/key.jks
 **/android/app/src/main/assets/google-services.json
+.vercel
