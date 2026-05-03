@@ -37,7 +37,6 @@
 **/android/app/src/main/res/mipmap-*/
 
 # Web related
-lib/generated_plugin_registrant.dart
 
 # Symbols and secrets
 **/ios/Flutter/Generated.xcconfig
