@@ -90,7 +90,13 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 
-flutter_icons:
-  android: "launcher_icon"
+flutter_launcher_icons:
+  image_path: "assets/images/app_icon.png" # Replace with your actual image path
+  android: true
   ios: true
-  image_path: "assets/images/app_icon.png"
+  web:
+    generate: true
+    image_path: "assets/images/app_icon.png"
+    background_color: "#ffffff" # Optional: Hex color for the background
+    theme_color: "#ffffff"
+ 
